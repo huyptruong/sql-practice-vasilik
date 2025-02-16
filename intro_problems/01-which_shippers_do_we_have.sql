@@ -1,2 +1,2 @@
 select *
-  from Shippers
+   from Shippers
