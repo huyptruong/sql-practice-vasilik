@@ -8,8 +8,8 @@ is 50. If Bob was born in 1960, then his "age range" is 60. Alice's "age range" 
 so Alice will come first if sorted by birthdate.
 */
 select e.FirstName as first_name
-	 , e.LastName as last_name
-	 , e.Title as title
-	 , e.BirthDate as birth_date
+     , e.LastName as last_name
+     , e.Title as title
+     , e.BirthDate as birth_date
    from Employees as e
  order by e.BirthDate asc
