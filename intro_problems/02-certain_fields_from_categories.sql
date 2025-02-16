@@ -1,3 +1,3 @@
 select c.CategoryName
-	 , c.Description
+     , c.Description
   from Categories as c
