@@ -1,0 +1,13 @@
+select e.EmployeeID as employee_id
+     , e.LastName as last_name
+     , o.OrderID as order_id
+     , p.ProductName as product_name
+     , od.Quantity as quantity
+  from Employees as e
+  join Orders as o
+    on e.EmployeeID = o.EmployeeID
+  join OrderDetails as od
+    on o.OrderID = od.OrderID
+  join Products as p
+    on od.ProductID = p.ProductID
+ order by o.OrderID, p.ProductID
