@@ -1,3 +1,6 @@
+/*
+One condition for one condition.
+*/
 select e.FirstName as first_name
      , e.LastName as last_name
      , e.HireDate as hire_date
